@@ -226,36 +226,36 @@
 //     return 0;
 // }
 
-#include<iostream>
-using namespace std;
-int main() {
-    int number=400;
-    int guess, attempts=0;
-    cout<<"Enter numbers from 1 50 1000 to guess the number!";
-    while (true) {
-        cout<<"Guess:";
-        cin>>guess;
-        attempts++;
-        if (number==guess) {
-            cout<<"Congrats, it is orrect!";
-            break;
-        }else if (number>guess) {
-            cout<<"Too low";
-        }else if (number<guess) {
-            cout<<"Too high";
-        }
-        if (attempts%5==0) {
-            if (number%2==0) {
-                cout<<"Hint: It is an even number";
-            }else if (number%5==0) {
-                cout<<"Hint:It is a multiple of 5";
-            }else {
-                cout<<"The number is not multiple of 2 or 5";
-            }
-        }
-    }
-    return 0;
-}
+// #include<iostream>
+// using namespace std;
+// int main() {
+//     int number=400;
+//     int guess, attempts=0;
+//     cout<<"Enter numbers from 1 50 1000 to guess the number!";
+//     while (true) {
+//         cout<<"Guess:";
+//         cin>>guess;
+//         attempts++;
+//         if (number==guess) {
+//             cout<<"Congrats, it is orrect!";
+//             break;
+//         }else if (number>guess) {
+//             cout<<"Too low";
+//         }else if (number<guess) {
+//             cout<<"Too high";
+//         }
+//         if (attempts%5==0) {
+//             if (number%2==0) {
+//                 cout<<"Hint: It is an even number";
+//             }else if (number%5==0) {
+//                 cout<<"Hint:It is a multiple of 5";
+//             }else {
+//                 cout<<"The number is not multiple of 2 or 5";
+//             }
+//         }
+//     }
+//     return 0;
+// }
 //
 
 
